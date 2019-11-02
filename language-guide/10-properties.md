@@ -80,7 +80,7 @@ print(manager.importer.filename)
 
 ### 저장 프로퍼티와 인스턴스 변수 \(Stored Properties and Instance Variables\)
 
-Objective-C에 경험이 있으신 분은 Objective-C 언어에서는 값을 저장하기 위해 점 연산자\(`instance.property = value`\)나 set 연산\(`instance.setProperty(value)`\)으로 값을 저장한다는 것을 아실 겁니다. 뿐만 아니라 메모리 관리와 관련한 개념도 프로퍼티에 함께 명시합니다. 바로 이런식으로 말이죠. `@property (nonatomic, retain) NSString *propertyName;` Swift에서는 이런 컨셉을 하나의 프로퍼티애 녹여 프로퍼티의 선언과 사용의 혼란을 피했습니다. 프로퍼티의 이름, 타입, 메모리 관리 등의 모든 정보를 프로퍼티를 선언하는 한곳에서 정의하게 됩니다.
+Objective-C에 경험이 있으신 분은 Objective-C 언어에서는 값을 저장하기 위해 점 연산자\(`instance.property = value`\)나 set 연산\(`instance.setProperty(value)`\)으로 값을 저장한다는 것을 아실 겁니다. 뿐만 아니라 메모리 관리와 관련한 개념도 프로퍼티에 함께 명시합니다. 바로 이런식으로 말이죠. `@property (nonatomic, retain) NSString *propertyName;` Swift에서는 이런 컨셉을 하나의 프로퍼티에 녹여 프로퍼티의 선언과 사용의 혼란을 피했습니다. 프로퍼티의 이름, 타입, 메모리 관리 등의 모든 정보를 프로퍼티를 선언하는 한곳에서 정의하게 됩니다.
 
 ## 계산된 프로퍼티 \(Computed Properties\)
 
